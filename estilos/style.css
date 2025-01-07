@@ -3,7 +3,7 @@
 /*
 Paleta Cor
 verde: #49a09d
-lilás:#5f2c82
+lilás: #5f2c82
 */
 
 *{
@@ -32,7 +32,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
@@ -60,5 +60,57 @@ div#form > h1 {
 }
 
 div#form > p {
-    font-family: 0.8em;
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form> input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #4eaca8d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form> input[type=submit]:hover {
+    background-color: #234b49;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    color:  #234b49;
+    border: 1px solid #4eaca8d0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #70f5eed0;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
 }
